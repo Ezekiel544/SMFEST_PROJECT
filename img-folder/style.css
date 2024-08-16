@@ -381,16 +381,16 @@ ul a li{
     }
     @keyframes background-img{
     0%{
-        background-image:linear-gradient(rgba(28, 28, 179, 0.5), rgba(14, 5, 57, 0.5)), url(/img-folder/background\(4\).webp); 
+        background-image:linear-gradient(rgba(28, 28, 179, 0.5), rgba(14, 5, 57, 0.5)), url(/background\(4\).webp); 
     }
     25%{
         background-image:linear-gradient(rgba(28, 28, 179, 0.5), rgba(14, 5, 57, 0.5)), url(/img-folder/DSC_3349-scaled.webp);  
     }
     50%{
-        background-image:linear-gradient(rgba(28, 28, 179, 0.5), rgba(14, 5, 57, 0.5)), url(/img-folder/background\(5\).webp);
+        background-image:linear-gradient(rgba(28, 28, 179, 0.5), rgba(14, 5, 57, 0.5)), url(/background\(5\).webp);
     }
     75%{
-        background-image:linear-gradient(rgba(28, 28, 179, 0.5), rgba(14, 5, 57, 0.5)), url(/img-folder/background\(3\).webp);
+        background-image:linear-gradient(rgba(28, 28, 179, 0.5), rgba(14, 5, 57, 0.5)), url(/background\(3\).webp);
     }
     100%{
        
@@ -559,7 +559,7 @@ section .basic-number{
   0px 10px 20px  #2A1F50;
 }
 .my-footer{
-    background-image:url(/img-folder/backround\(2\).webp);
+    background-image:url(/backround\(2\).webp);
     height: 113vh;
     padding-top: 50px;
     background-size: contain;

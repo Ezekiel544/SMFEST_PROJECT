@@ -18,6 +18,7 @@
     animation-duration: 10s;
     animation-iteration-count: infinite;
     background-size: cover;
+  
 
    
 }
@@ -560,14 +561,14 @@ section .basic-number{
 }
 .my-footer{
     background-image:url(/img-folder/backround\(2\).webp);
-    height: 113vh;
+    /* height: 113vh; */
     padding-top: 50px;
     background-size: contain;
     overflow-x: hidden;
     background-color: #08003C;
     opacity: 1px;
     background-blend-mode: overlay;
-    padding-top: 120px;
+    padding-top: 160px;
 }
 footer .footer-p{
     font-family: Agrandir;
@@ -631,13 +632,15 @@ footer .footer-ul li{
     font-size: 17px;
     font-family:  clash display;
     font-weight: 900;
+    color: #B4B4B4;
 }
 footer .footer-ul li:hover{
     color: var(--pinka-color);
 }
 .silicon-p{
     margin-top: 99px;
-    padding-top: 28px;
+    padding-top: 40px;
+    padding-bottom: 70px;
     font-family: Whyte Inktrap;
     font-size: 17px;
     color: #666666;
@@ -657,6 +660,29 @@ footer .footer-ul li:hover{
     position: absolute;
     top: 17px;
     margin: 0px 3px;
+}
+.shakable-image {
+    transition: transform 0.2s ease;
+}
+
+.image-container:hover .shakable-image {
+    animation: shake 0.6s ease-in-out;
+}
+
+@keyframes shake {
+    0% { transform: translateX(0); }
+    25% { transform: translateX(-10px); }
+    50% { transform: translateX(10px); }
+    75% { transform: translateX(-10px); }
+    100% { transform: translateX(0); }
+}
+
+.my-fix{
+   padding: 13px 16px; border: 1px solid white; border-radius: 5px; top: 60px; position: fixed; right: 6px; top: 470px;
+   color: white;
+}
+.my-fix:hover{
+    color: #08003C;
 }
  /* Medium Devices */
 @media(max-width:991px){
@@ -715,7 +741,6 @@ footer .footer-ul li:hover{
      }
      .four-div h1{
         font-size: 43px;
-        
      }
      .four-div p{
         font-weight: 600;
@@ -828,8 +853,8 @@ footer .footer-ul li:hover{
         top: 20px;
         }
         .buy-ticket{
-            padding: 15px 19px;
-            font-size: 14px;
+        padding: 15px 19px;
+        font-size: 14px;
         }
         .Sponsor-Btn{
             font-size: 14px;
@@ -921,7 +946,7 @@ footer .footer-ul li:hover{
         font-weight: 600;
     }
     .global-img-div{
-        height: 110vh;
+        height: 85vh;
         top: 60px;
         position: relative;
         left: 0px;
@@ -993,12 +1018,17 @@ footer .footer-ul li:hover{
     }
     .my-footer{
         background-image:url(/backround\(2\).webp);
-        height: 90vh;
+        /* height: 90vh; */
         padding-top: 35px; 
     }   
     .h1-sup{
         font-size: 17px;
         top: 14px;
+    }
+    .silicon-p{
+        margin-top: 55px;
+        padding-top: 40px;
+        padding-bottom: 0px;
     }
     }
 /* Extra Small Devices */
@@ -1022,7 +1052,7 @@ footer .footer-ul li:hover{
     }
     .sm-about-border{
         left: 18px;
-        height:80vh;
+        height:84vh;
     }
     .smfest-write{
        padding-top: 24px;
@@ -1054,7 +1084,7 @@ footer .footer-ul li:hover{
 
     }
     .global-img-div{
-        height: 95vh;
+        height: 88vh;
       
      }
      .global-img{

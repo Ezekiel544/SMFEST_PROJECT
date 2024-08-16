@@ -1,0 +1,1122 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0x;
+}
+:root{
+    --white-color : white;
+    --dull-white : #F4F4F4 ;
+    --red-color : red ;
+    --pinka-color : #EE2F5B ;
+    --thicka-dark: #101010 ;
+}
+.background-div{
+    background-image:linear-gradient(rgba(28, 28, 179, 0.5), rgba(14, 5, 57, 0.5)), url(/img-folder/DSC_3349-scaled.webp);
+    height: 100vh;
+    padding-top: 70px;
+    animation-name: background-img;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    background-size: cover;
+
+   
+}
+header{
+    overflow-x: hidden;
+}
+main{
+    overflow-x: hidden;
+}
+.css-container{
+    width: 88%;
+    margin:0 auto;
+}
+.navbar-toggler{
+  border: none ;
+  color: white;
+}
+
+ul li{
+    list-style: none;
+}
+.background-div ul li a{
+    color: white;
+    
+}
+ul  a{
+    text-decoration: none;
+    list-style: none;
+    color: var(--white-color);
+    font-size: 16px;
+    letter-spacing: 0.96px;
+    font-family: Agrandir;
+    font-weight: 600;
+
+}
+ul  a:hover{
+    color: var(--red-color);
+}
+ul a li{
+    font-size: 16px;
+    letter-spacing: 0.96px;
+    /* padding: 0px 12px; */
+}
+
+.my-ul a{
+    /* padding-right: 340px; */
+    padding: 4px;
+    padding-right: 340px;
+}
+.my-ul a:hover{
+    background-color: var(--white-color);
+   
+}
+.sponsor-btn{
+    border: none;
+    padding: 18px 51px;
+    color: var(--white-color);
+    background: linear-gradient(to right,#E0296F, #FC4D36);
+    font-family: Agrandir;
+    font-size: 16px;
+    letter-spacing: 0.96px;
+    margin-left: 30px;
+    transition: left 0.5s ease, color 0.5s ease; 
+}
+/* sponsorDevices */
+@media(min-width:992px) and (max-width:1200px){
+    .sponsor-btn{
+        border: none;
+        padding: 18px 45px;
+        padding-left: 25px;
+        /* font-size: 14px; */
+    }
+    
+}
+.sponsor-btn:hover{
+    background: linear-gradient(to right,#FC4D36, #E0296F);
+}
+.row-share{
+    position: relative;
+    
+}
+.p-anti{
+    color: var(--white-color);
+    font-family: Agrandir; 
+    font-size: 20px;
+    letter-spacing: 7px;
+    font-weight: 700;
+    font-size: 17px;
+    text-align: center;
+}
+.smfest-div{
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      }
+.smFEst-p{
+    font-size: 96px;
+    margin-top: 17px;
+    font-weight: bolder;
+    color: var(--white-color);
+    font-family: Clash Display;
+    line-height: 75px;
+    letter-spacing: 9px;
+}
+ .play-span{
+    position: relative;
+ }
+ 
+.play-icon{
+    position: absolute;
+      left: 65px;
+      bottom: -7px;
+} 
+@media(min-width:992px) and (max-width:1326px){
+    .smFEst-p{
+        font-size: 90px;
+        margin-top: 10px; 
+        line-height: 75px;
+    }   
+    .background-div{
+        padding-top: 2px;
+    } 
+}
+.theme-divs{
+    color: var(--white-color);
+    text-align: center;
+    font-family: Agrandir;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.buy-ticket-divs{
+    text-align: center;
+}
+.buy-tickets{
+    border: 1px solid #08003C;
+    background-color: transparent;
+    color: var(--white-color);
+    padding: 15px 22px;
+    font-family: Agrandir;
+    font-weight: bolder;
+    letter-spacing: 3px;
+}
+.Sponsor-Btn{
+    border: none;
+    background-color: transparent;
+    color: var(--white-color);
+    font-family: Agrandir;
+    font-weight: bolder;
+    letter-spacing: 3px;
+}
+.play-btn{
+    background-color: transparent;
+    border: none;
+    border: 1px solid #08003C;
+    border-radius: 59%;
+    margin: 0px 27px;
+}
+.buy-tickets:hover{
+    color: #08003C;
+}
+.offcanvas-body{
+    background: linear-gradient(to bottom,#FC4D36, #E0296F);
+}
+.my-ul{
+    overflow-y: scroll;
+}
+.my-ul::-webkit-scrollbar{
+    display: none;
+} 
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255, 255, 255, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+.navbar-toggler{
+  border: none
+}
+
+        /* main  */
+    main{
+      height: fit-content;
+    }
+    .main-div{
+        padding-top: 30px;
+        
+    }   
+    .main-h1{
+        color: #EE2F5B;
+         font-size: 62px; 
+         font-weight: 700;
+         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .main-p{
+        font-weight: 700;
+        font-family: Agrandir ;
+        font-size: 17px;
+        letter-spacing: 1px;
+       
+    }
+    .main-span{
+        position: absolute; 
+        right: 132px;
+        bottom: -120px;
+    }
+    .main-hnum{
+        position: relative;
+    }
+    .first-section{
+        color: var(--dull-white);
+        margin-top: 200px;
+    }
+    .about-sm-p{
+        color: var(--pinka-color);
+        letter-spacing: 5px;
+        font-weight:700;
+        font-family: Agrandir ;
+    }
+    .main-h1{
+        font-family: clash display;
+        font-weight: 600;
+    }
+    .about-sm-btn{
+    border: 2px solid var(--dull-white);
+    padding: 15px 33px;
+    color: var(--white-color);
+    background: transparent;
+    font-family: Agrandir;
+    font-size: 16px;
+    letter-spacing: 0.96px;
+    transition: left 0.5s ease, color 0.5s ease;
+    
+    }
+    .about-sm-h1{
+        font-family: clash display;
+        font-size: 63px;
+        font-weight: 800;
+    }
+    .about-sm-inner p{
+        font-family: Agrandir;
+        font-size: 15px;
+        font-weight: 700;
+    }
+    .about-sm-btn:hover{
+        background: linear-gradient(to bottom,#FC4D36, #E0296F);
+        transition-duration: 1s;
+        border: none;
+    }
+    .sm-about-border{
+        height: 105vh;
+        border: 4px solid var(--pinka-color);
+        border-radius: 20px;
+        position: relative;
+        left: 57px;
+    }
+     .my-sm-img{
+        position: absolute;
+        top: 45px;
+        right: 40px;
+        width: 100%;
+     }
+     .four-div{
+        text-align: center;
+        background-color: var(--thicka-dark);
+        border: 1px solid var(--white-color);
+        color: var(--white-color);
+        position: absolute;
+        width: 180px;
+        right: -27px;
+        bottom: 30px;
+     }
+     .four-div h1{
+        font-family:clash display ;
+        font-size: 55px;
+        position: relative;
+        
+     }
+     .four-div p{
+        font-family:clash display ;
+        font-weight: 600;
+        font-size: 22px;
+     }
+     .first-sup{
+        color: var(--pinka-color);
+        font-size: 18px;
+        position: absolute;
+        top: 25px;
+     }
+     .global-img-div{
+        height: 125vh;
+        border: 4px solid var(--pinka-color);
+        border-radius: 14px;
+        position: relative;
+     }
+     .global-img{
+         position: absolute;
+         top: 20px;
+         right: 47px;
+         height: 102%;
+         width: 93%;
+     }
+     .global-writeup{
+        position: relative;
+        left: 67px;
+
+        
+     }
+     .sponsi i{
+        font-size: 44px;
+     }
+     .sponsi i:hover{
+        font-size: 46px;
+     }
+     .sponsi-h1{
+        font-family: Agrandir;
+        font-weight: bolder;
+     }
+     .sponsi-p{
+        line-height: 24px;
+     }
+     .fifty-div{
+        background-color: var(--pinka-color);
+        border: 1px solid var(--white-color);
+        color: var(--white-color);
+        width: 220px;
+        position: absolute;
+        padding: 17px;
+         left: -70px;
+         top: -95px;
+     }
+     
+     .fifty-div h1{
+        font-family:clash display ;
+        font-size: 55px;
+        position: relative;
+        
+     }
+     .fifty-div p{
+        font-family:clash display ;
+        font-weight: 500;
+        font-size: 22px;
+     }
+     .fifty-sup{
+        color: var(--white-color);
+        font-size: 18px;
+        position: absolute;
+        top: 25px;
+     }
+     .about-choose-h1{
+        font-family: clash display;
+        font-size: 59px;
+        font-weight: 600;
+    }
+    .p-exhibit{
+
+    font-size: 57px;
+    margin-top: 17px;
+    font-weight: bolder;
+    color: var(--white-color);
+    font-family: Clash Display;
+    line-height: 75px;
+    letter-spacing: 1px;
+ 
+    }
+    @keyframes background-img{
+    0%{
+        background-image:linear-gradient(rgba(28, 28, 179, 0.5), rgba(14, 5, 57, 0.5)), url(/background\(4\).webp); 
+    }
+    25%{
+        background-image:linear-gradient(rgba(28, 28, 179, 0.5), rgba(14, 5, 57, 0.5)), url(/img-folder/DSC_3349-scaled.webp);  
+    }
+    50%{
+        background-image:linear-gradient(rgba(28, 28, 179, 0.5), rgba(14, 5, 57, 0.5)), url(/background\(5\).webp);
+    }
+    75%{
+        background-image:linear-gradient(rgba(28, 28, 179, 0.5), rgba(14, 5, 57, 0.5)), url(/background\(3\).webp);
+    }
+    100%{
+       
+    }
+}
+
+/* btn style  */
+.hover-btn a.text-completed::after,.text-completed::before{
+content: "SPONSOR";
+position: absolute;
+align-items: center;
+justify-content: center;
+color: #ffff;
+left: 0;
+width: 100%;
+line-height:50px;
+text-transform: capitalize;
+transition: all 400ms;
+}
+.hover-btn .text-completed::before{
+content: "REGISTER";
+left: 190px;
+background: linear-gradient(to right #df2771,#fb4c37);
+}
+.hover-btn a.text-completed:hover::after{
+left:-170px;
+background: linear-gradient(to right #fb4c37, #df2771);
+}
+.hover-btn .text-completed:hover::before{
+left: 0;
+}
+.hover-btn a{
+display: flex;
+overflow: hidden;
+width: 160px;
+height: 42px;
+position: relative;
+}
+.hover-btn{
+height: 50px;
+width: 60%;
+display: flex;
+overflow: hidden;
+border: none;
+position: relative;
+padding: 30px;
+align-items: center;
+justify-content: center;
+background-color: #fb4c37;
+}
+/* read more  */
+
+.second-hover a.text-good::after,.text-good::before{
+content: "SPONSOR";
+position: absolute;
+align-items: center;
+justify-content: center;
+color: #ffff;
+left: 0;
+width: 100%;
+line-height:50px;
+text-transform: capitalize;
+transition: all 400ms;
+background: transparent;
+}
+.second-hover .text-good::before{
+content: "SPONSOR";
+left: 190px;
+}
+.second-hover a.text-good:hover::after{
+left:-170px;
+background: linear-gradient(to right #fb4c37, #df2771);
+}
+.second-hover .text-good:hover::before{
+left: 0;
+}
+.second-hover a{
+display: flex;
+overflow: hidden;
+width: 160px;
+height: 42px;
+position: relative;
+}
+.second-hover{
+height: 50px;
+width: 60%;
+display: flex;
+overflow: hidden;
+border: none;
+position: relative;
+padding: 30px;
+align-items: center;
+justify-content: center;
+background-color: #fb4c37;
+                }
+.my-carousel{
+    margin-top: 140px;
+}
+.my-arrow{
+    font-size: 79px;
+}
+.speaker-p{
+    font-family: Agrandir;
+    font-weight: 700;
+}
+.some-speaker{
+    letter-spacing: 9px;
+} 
+section .basic-header{
+    font-size: 32px;
+    font-weight: 600;
+    font-family: clash display;
+  
+}
+section .p-cancel{
+    font-family: clash display;
+    text-decoration: line-through;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.p-sup{
+    text-decoration: none;
+    list-style: none;
+}
+section .basic-number{
+    font-family: Whyte Inktrap;
+    color: var(--pinka-color);
+    font-size:43px ;
+    font-weight: 900 ;
+}
+.last-ul li{
+    font-family: clash display;
+    font-size: 16px;
+    line-height: 30px;
+}
+.mark-good{
+    font-size:30px;
+    font-weight: 900;
+    /* margin: 0px 2px; */
+    /* margin-top: 10px; */
+   
+}
+.buy-ticket{
+    background: transparent;
+    font-family: clash display;
+    color: white;
+    border: 1px solid var(--white-color);
+    border-radius: 19px;
+    padding: 10px 33px;
+    font-size: 18px;
+    font-weight: 500;
+    font-size: 19px;
+    letter-spacing: 2px;
+}
+.buy-ticket:hover{
+    padding-bottom: 17px;
+    font-size: 20px;
+}
+.check-price{
+    border: 1px solid var(--pinka-color);
+    padding: 10px 0px;
+}
+.check-price:hover{
+  box-shadow: -5px 5px 10px #2A1F50, 5px 5px  10px #2A1F50,
+  0px 10px 20px  #2A1F50;
+}
+.my-footer{
+    background-image:url(/backround\(2\).webp);
+    height: 113vh;
+    padding-top: 50px;
+    background-size: contain;
+    overflow-x: hidden;
+    background-color: #08003C;
+    opacity: 1px;
+    background-blend-mode: overlay;
+    padding-top: 120px;
+}
+footer .footer-p{
+    font-family: Agrandir;
+    color: #B4B4B4;
+}
+footer h3{
+    font-family:  clash display;
+    color: white;
+    font-size: 24px;
+    margin-bottom: 32px;
+}
+footer form{
+    display: flex;
+    flex-direction: column;
+}
+.newsletter input{
+    border-radius: 50px;
+    border: 1px solid #B4B4B4;
+    padding: 14px 24px;
+    outline: none;
+    font-family: Agrandir;
+    letter-spacing: 2px;
+    background: transparent;
+}
+.newsletter button{
+    padding: 14px 24px;
+    outline: none;
+    font-family: Agrandir;
+    letter-spacing: 2px;
+    border-radius: 50px;
+    border: none;
+     color: var(--dull-white);
+    padding: 18px 51px;
+    color: var(--white-color);
+    background: linear-gradient(to right, #FC4D36 , #E0296F);
+    font-family: Agrandir;
+    font-size: 16px;
+    letter-spacing: 0.96px;
+}
+.social-icon a{
+    list-style: none;
+}
+.social-icon img{
+    border: 2px solid #B4B4B4;
+    border-radius: 50%;
+    padding:7px;
+    
+}
+.social-icon img:hover{
+    background: var(--pinka-color);
+    border: none;
+    width: 36;
+}
+.newsletter input:focus{
+   border:2px solid var(--pinka-color);
+   color: var(--dull-white);
+}
+footer .footer-ul li{
+    margin: 16px 0px;
+    letter-spacing: 1px;
+    font-size: 17px;
+    font-family:  clash display;
+    font-weight: 900;
+}
+footer .footer-ul li:hover{
+    color: var(--pinka-color);
+}
+.silicon-p{
+    margin-top: 99px;
+    padding-top: 28px;
+    font-family: Whyte Inktrap;
+    font-size: 17px;
+    color: #666666;
+}
+.slicon{
+    color: var(--white-color);
+    text-decoration: none;
+}
+.slicon:hover{
+    color: #08003C;
+}
+.main-h1{
+    position: relative;
+}
+.h1-sup{
+    font-size: 29px;
+    position: absolute;
+    top: 17px;
+    margin: 0px 3px;
+}
+ /* Medium Devices */
+@media(max-width:991px){
+   
+    .logo-img{
+        position: relative;
+        bottom: 15px;
+    }
+    .sponsor-btn{
+        display: none;
+    }
+    .anti{
+        display: none;
+    }
+    .smfest-p{
+        font-size: 80px;
+    }
+    .owerri-24{
+        position: absolute;
+       top: 25px; 
+   }
+   .theme-div{
+    position: relative;
+    bottom: 70px;
+    }
+    .buy-ticket-div{
+        position: relative;
+        bottom: 70px;
+     }
+     .background-div{
+        padding-top: 50px;
+     }
+     .main-span{
+        bottom: -310px;
+    }
+    
+    .smfest-write{
+        order: 2;
+    }
+     .sm-about-border{
+        left: 7px;
+        height:140vh;
+
+    }
+    .my-sm-img{
+        position: absolute;
+        top: 30px;
+        right: 25px;
+        height: 100%;
+     }
+    .four-div{
+        width: 360px;
+        right: -28px;
+        bottom: 20px;
+        padding:3px 13px;
+     }
+     .four-div h1{
+        font-size: 43px;
+        
+     }
+     .four-div p{
+        font-weight: 600;
+        font-size: 18px;
+     }
+     .about-sm-h1{
+        font-family: clash display;
+        font-size: 63px;
+        font-weight: bold;
+    }
+    .about-sm-inner p{
+        font-size: 13px;
+        font-weight: 600;
+    }
+    
+    .smFEst-p{
+        font-size: 65px;
+        line-height: 45px;
+     }
+     .p-anti{
+        font-size: 17px;
+     }
+     .global-img-div{
+        height: 130vh;
+        border: 4px solid var(--pinka-color);
+        border-radius: 14px;
+        position: relative;
+        left: 16px;
+     }
+     .global-img{
+         position: absolute;
+         top: 20px;
+         right: 0px;
+         height: 109%;
+     }
+     .global-img{
+        position: absolute;
+        top: 16px;
+        /* right: 69px; */
+        left: 19px;
+        height: 105%;
+        width: 91%;
+    }
+     .global-writeup{
+        position: relative;
+        left:0px;
+        top: 55px;
+     }
+     .fifty-div{
+        background-color: var(--pinka-color);
+        border: 1px solid var(--white-color);
+        color: var(--white-color);
+        width: 360px;
+        position: absolute;
+        padding:3px 13px;
+         left: -30px;
+         top: -85px;
+     }
+     .fifty-div h1{
+        font-family:clash display ;
+        font-size: 49px;
+        position: relative;
+        
+     }
+     .fifty-div p{
+        font-family:clash display ;
+        font-weight: 500;
+        font-size: 18px;
+     }
+     .hover-btn {
+        display: none;
+     }
+     .my-carousel{
+        margin-top: 110px;
+    }
+    .p-exhibit{
+
+        font-size: 54px;
+    }
+    .my-arrow{
+        font-size: 70px;
+    }
+    .buy-ticket{
+        background: transparent;
+        font-family: clash display;
+        color: white;
+        border: 1px solid var(--white-color);
+        border-radius: 19px;
+        padding: 10px 33px;
+    }
+        
+}
+@media(max-width:767px){
+    .sponsor-btn{
+        display: none;
+    }
+    .css-container{
+        width: 96%;
+        margin:0 auto;
+    }
+    .anti{
+        display: none;
+    }
+    .smfest-div{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        position: relative;
+        top: 20px;
+        }
+        .buy-ticket{
+            padding: 15px 19px;
+            font-size: 14px;
+        }
+        .Sponsor-Btn{
+            font-size: 14px;
+        }
+        .main-h1{
+            color: #EE2F5B;
+             font-size: 32px; 
+             font-weight: 700;
+        }
+        .main-p{
+            font-weight: 700;
+        }
+        .main-span{
+            bottom: -271px;
+            right: 100px;
+        }
+        .about-sm-p{
+            font-size: 13px;
+        }
+        .about-sm-h1{
+          font-weight: bolder;
+            font-size: 34px;
+        }
+        .about-sm-inner p{
+            font-size: 12px;
+        }
+        .first-section{
+            margin-top: 30px;
+        }
+        .smfest-write{
+            order: 2;
+        }
+        .sm-about-border{
+            left: 18px;
+            height:110vh;
+        }
+        .my-sm-img{
+            position: absolute;
+            top: 20px;
+            right: 4px;
+            /* width: 93%; */
+         }
+         .four-div{
+            width: 460px;
+            right: -28px;
+            bottom: -50px;
+         }
+         .four-div h1{
+            font-size: 35px;
+            
+         }
+         .four-div p{
+            font-weight: 600;
+            font-size: 18px;
+         }
+         .smFEst-p{
+            font-size: 57px;
+            line-height: 43px;
+            letter-spacing: 4px;
+         }
+         .p-anti{
+            font-size: 14px;
+         }
+         .theme-divs p{
+            font-size: 14px;
+         }
+         .buy-tickets{
+            border: 1px solid #08003C;
+            background-color: transparent;
+            color: var(--white-color);
+            padding: 15px 22px;
+            font-family: Agrandir;
+            font-weight: bolder;
+            letter-spacing: 3px;
+        }
+         .buy-tickets{
+            padding: 9px 14px;
+         }
+         .global-writeup{
+            position: relative;
+            left: 0px;
+            top: 110px;
+            margin-bottom: 100px;
+         }
+         
+     .about-choose-h1{
+        font-family: clash display;
+        font-size: 45px;
+        font-weight: 600;
+    }
+    .global-img-div{
+        height: 110vh;
+        top: 60px;
+        position: relative;
+        left: 0px;
+     }
+     .global-img{
+        position: absolute;
+        top: -60px;
+        /* right: 69px; */
+        left: -4px;
+        height: 115%;
+        width: 98%;
+    }
+    .fifty-div{
+        background-color: var(--pinka-color);
+        border: 1px solid var(--white-color);
+        color: var(--white-color);
+        width: 460px;
+        position: absolute;
+        padding:3px 13px;
+         left:  12px;
+         top: -55px;
+     }
+     
+     .fifty-div h1{
+        font-family:clash display ;
+        font-size: 40px;
+        position: relative;
+        
+     }
+     
+     .fifty-div p{
+        font-family:clash display ;
+        font-weight: 500;
+        font-size: 22px;
+     }
+     
+     .fifty-div p{
+        font-family:clash display ;
+        font-weight: 500;
+        font-size: 18px;
+     }
+     .play-icon{
+        position: absolute;
+         left: 175px;
+          top: 83px;
+    }
+    .my-carousel{
+        margin-top: 60px;
+        width: 96%;
+        margin:0 auto;
+    }
+    .p-exhibit{
+        font-size: 40px;
+    }
+    .my-arrow{
+        font-size: 45px;
+    }
+    .speaker-p{
+        font-weight: 200;
+        font-size: 13px;
+    }
+    .my-footer{
+        height: 200vh;
+    }
+    .play-icon{
+        position: absolute;
+          left: 65px;
+          top: -7px;
+    }
+    .my-footer{
+        background-image:url(/backround\(2\).webp);
+        height: 90vh;
+        padding-top: 35px; 
+    }   
+    .h1-sup{
+        font-size: 17px;
+        top: 14px;
+    }
+    }
+/* Extra Small Devices */
+@media(max-width:575px){
+    .sponsor-btn{
+        display: none;
+    }
+    .smfest-p{
+        font-size: 60px;
+    }
+   .anti{
+    display: none;
+   }
+   .theme-divs p{
+    font-size: 12px;
+   }
+    .main-span{
+        position: absolute; 
+        right: 160px;
+        bottom: -600px;
+    }
+    .sm-about-border{
+        left: 18px;
+        height:80vh;
+    }
+    .smfest-write{
+       padding-top: 24px;
+       padding-bottom: 24px;
+        
+    }
+    
+    .four-div{
+        width: 350px;
+        right: -12px;
+        bottom: -50px;
+     }
+     .smFEst-p{
+        font-size: 35px;
+        line-height: 25px;
+     }
+     .p-anti{
+        font-size: 14px;
+     }
+     .fifty-div{
+        width: 350px;
+        top: -80px;
+     }
+     .about-choose-h1{
+        font-size: 37px;
+     }
+     .global-img-div{
+        border: 4px solid var(--pinka-color);
+
+    }
+    .global-img-div{
+        height: 95vh;
+      
+     }
+     .global-img{
+        position: absolute;
+        top: -60px;
+        /* right: 69px; */
+        left: -4px;
+        height: 115%;
+        width: 98%;
+    }
+    .my-carousel{
+        margin-top: 0px;
+    }
+   .p-exhibit{
+    font-size: 25px;
+   }
+   .my-arrow{
+    font-size: 30px;
+    }
+   
+  
+
+}
+ /* design media  */
+ @media(max-width:466px){
+    .smfest-p{
+        font-size: 50px;
+    }
+    .owerri-24{
+        position: absolute;
+       top: 27px; 
+   }
+ }
+ @media(max-width:466px){
+    .smfest-p{
+        font-size: 30px;
+    }
+    .fifty-div{
+        width:250px;
+     }
+     .four-div{
+        width: 250px;
+     }
+     .about-choose-h1{
+        font-size: 33px;
+     }
+     .global-img-div{
+        height: 110vh;
+        left: 20px;
+      
+     }
+     .global-img{
+        position: absolute;
+        top: 15px;
+        left: -5px;
+        height: 96%;
+
+        width: 98%;
+    }
+    
+    .buy-tickets{
+        font-size: 13px;
+    }
+     
+ }

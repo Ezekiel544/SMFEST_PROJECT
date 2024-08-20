@@ -24,6 +24,7 @@
 }
 header{
     overflow-x: hidden;
+    overflow-y: hidden;
 }
 main{
     overflow-x: hidden;
@@ -400,62 +401,62 @@ ul a li{
 
 /* btn style  */
 .hover-btn a.text-completed::after,.text-completed::before{
-content: "SPONSOR";
-position: absolute;
-align-items: center;
-justify-content: center;
-color: #ffff;
-left: 0;
-width: 100%;
-line-height:50px;
-text-transform: capitalize;
-transition: all 400ms;
+    content: "SPONSOR";
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    color: #ffff;
+    left: 0;
+    width: 100%;
+    line-height:50px;
+    text-transform: capitalize;
+    transition: all 400ms;
 }
 .hover-btn .text-completed::before{
-content: "REGISTER";
-left: 190px;
-background: linear-gradient(to right #df2771,#fb4c37);
+    content: "REGISTER";
+    left: 190px;
+    background: linear-gradient(to right #df2771,#fb4c37);
 }
 .hover-btn a.text-completed:hover::after{
-left:-170px;
-background: linear-gradient(to right #fb4c37, #df2771);
+    left:-170px;
+    background: linear-gradient(to right #fb4c37, #df2771);
 }
 .hover-btn .text-completed:hover::before{
-left: 0;
+    left: 0;
 }
 .hover-btn a{
-display: flex;
-overflow: hidden;
-width: 160px;
-height: 42px;
-position: relative;
+    display: flex;
+    overflow: hidden;
+    width: 160px;
+    height: 42px;
+    position: relative;
 }
 .hover-btn{
-height: 50px;
-width: 60%;
-display: flex;
-overflow: hidden;
-border: none;
-position: relative;
-padding: 30px;
-align-items: center;
-justify-content: center;
-background-color: #fb4c37;
+    height: 50px;
+    width: 60%;
+    display: flex;
+    overflow: hidden;
+    border: none;
+    position: relative;
+    padding: 30px;
+    align-items: center;
+    justify-content: center;
+    background-color: #fb4c37;
 }
 /* read more  */
 
-.second-hover a.text-good::after,.text-good::before{
-content: "SPONSOR";
-position: absolute;
-align-items: center;
-justify-content: center;
-color: #ffff;
-left: 0;
-width: 100%;
-line-height:50px;
-text-transform: capitalize;
-transition: all 400ms;
-background: transparent;
+    .second-hover a.text-good::after,.text-good::before{
+    content: "SPONSOR";
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    color: #ffff;
+    left: 0;
+    width: 100%;
+    line-height:50px;
+    text-transform: capitalize;
+    transition: all 400ms;
+    background: transparent;
 }
 .second-hover .text-good::before{
 content: "SPONSOR";
@@ -476,16 +477,16 @@ height: 42px;
 position: relative;
 }
 .second-hover{
-height: 50px;
-width: 60%;
-display: flex;
-overflow: hidden;
-border: none;
-position: relative;
-padding: 30px;
-align-items: center;
-justify-content: center;
-background-color: #fb4c37;
+    height: 50px;
+    width: 60%;
+    display: flex;
+    overflow: hidden;
+    border: none;
+    position: relative;
+    padding: 30px;
+    align-items: center;
+    justify-content: center;
+    background-color: #fb4c37;
                 }
 .my-carousel{
     margin-top: 140px;
@@ -531,9 +532,6 @@ section .basic-number{
 .mark-good{
     font-size:30px;
     font-weight: 900;
-    /* margin: 0px 2px; */
-    /* margin-top: 10px; */
-   
 }
 .buy-ticket{
     background: transparent;
@@ -561,8 +559,6 @@ section .basic-number{
 }
 .my-footer{
     background-image:url(/img-folder/backround\(2\).webp);
-    /* height: 113vh; */
-    padding-top: 50px;
     background-size: contain;
     overflow-x: hidden;
     background-color: #08003C;
@@ -615,7 +611,6 @@ footer form{
     border: 2px solid #B4B4B4;
     border-radius: 50%;
     padding:7px;
-    
 }
 .social-icon img:hover{
     background: var(--pinka-color);
@@ -640,35 +635,37 @@ footer .footer-ul li:hover{
 .silicon-p{
     margin-top: 99px;
     padding-top: 40px;
-    padding-bottom: 70px;
     font-family: Whyte Inktrap;
     font-size: 17px;
     color: #666666;
+    padding-bottom: 30px;
 }
 .slicon{
     color: var(--white-color);
-    text-decoration: none;
+    text-decoration: none; 
 }
 .slicon:hover{
     color: #08003C;
 }
-.main-h1{
+.main-relative-div{
     position: relative;
 }
+.main-h1{
+    /* position: relative; */
+}
 .h1-sup{
-    font-size: 29px;
+    font-size: 23px;
+    font-weight: bold;
     position: absolute;
-    top: 17px;
-    margin: 0px 3px;
+    top: 35px;
+    right: 53px;
 }
 .shakable-image {
     transition: transform 0.2s ease;
 }
-
 .image-container:hover .shakable-image {
     animation: shake 0.6s ease-in-out;
 }
-
 @keyframes shake {
     0% { transform: translateX(0); }
     25% { transform: translateX(-10px); }
@@ -678,11 +675,22 @@ footer .footer-ul li:hover{
 }
 
 .my-fix{
-   padding: 13px 16px; border: 1px solid white; border-radius: 5px; top: 60px; position: fixed; right: 6px; top: 470px;
+   padding: 13px 16px; border: 1px solid white; border-radius: 5px; position: fixed; right: 6px; top: 543px;
    color: white;
 }
 .my-fix:hover{
     color: #08003C;
+}
+.sup-for-ten{
+position: absolute;
+ top: 65px; 
+ /* right: 130px; */
+ right: 45%;
+}
+.sup-for-tens{
+    position: absolute;
+    top: 65px;
+     right: 115px;
 }
  /* Medium Devices */
 @media(max-width:991px){
@@ -700,10 +708,6 @@ footer .footer-ul li:hover{
     .smfest-p{
         font-size: 80px;
     }
-    .owerri-24{
-        position: absolute;
-       top: 25px; 
-   }
    .theme-div{
     position: relative;
     bottom: 70px;
@@ -779,7 +783,6 @@ footer .footer-ul li:hover{
      .global-img{
         position: absolute;
         top: 16px;
-        /* right: 69px; */
         left: 19px;
         height: 105%;
         width: 91%;
@@ -831,7 +834,12 @@ footer .footer-ul li:hover{
         border-radius: 19px;
         padding: 10px 33px;
     }
-        
+.h1-sup{
+    right: 35%;
+    }   
+    .sup-for-tens{
+         right: 80px;
+    }
 }
 @media(max-width:767px){
     .sponsor-btn{
@@ -1008,9 +1016,6 @@ footer .footer-ul li:hover{
         font-weight: 200;
         font-size: 13px;
     }
-    .my-footer{
-        height: 200vh;
-    }
     .play-icon{
         position: absolute;
           left: 65px;
@@ -1018,18 +1023,21 @@ footer .footer-ul li:hover{
     }
     .my-footer{
         background-image:url(/backround\(2\).webp);
-        /* height: 90vh; */
-        padding-top: 35px; 
-    }   
-    .h1-sup{
-        font-size: 17px;
-        top: 14px;
+        padding-bottom: 3px;
+        overflow-y: hidden;
+        padding-top: 20px;
     }
     .silicon-p{
-        margin-top: 55px;
-        padding-top: 40px;
-        padding-bottom: 0px;
+        padding-top: 10px; 
+        margin-top: 30px;
+        margin-bottom: 0px;
     }
+    .sup-for-tens{
+        right: 200px;
+   }
+    .h1-sup{
+        right:39%;
+    }  
     }
 /* Extra Small Devices */
 @media(max-width:575px){
@@ -1104,20 +1112,13 @@ footer .footer-ul li:hover{
    .my-arrow{
     font-size: 30px;
     }
+    .h1-sup{
+        right:35%;
+    }  
    
   
 
 }
- /* design media  */
- @media(max-width:466px){
-    .smfest-p{
-        font-size: 50px;
-    }
-    .owerri-24{
-        position: absolute;
-       top: 27px; 
-   }
- }
  @media(max-width:466px){
     .smfest-p{
         font-size: 30px;
@@ -1132,9 +1133,8 @@ footer .footer-ul li:hover{
         font-size: 33px;
      }
      .global-img-div{
-        height: 110vh;
+        height: 90vh;
         left: 20px;
-      
      }
      .global-img{
         position: absolute;
@@ -1148,5 +1148,18 @@ footer .footer-ul li:hover{
     .buy-tickets{
         font-size: 13px;
     }
+    .h1-sup{
+        right:30%;
+    } 
+    .sup-for-tens{
+        position: absolute;
+        top: 65px;
+         right: 93px;
+    }
      
+ }
+ @media(max-width:374px){
+    .sup-for-tens{
+         right: 75px;
+    }
  }

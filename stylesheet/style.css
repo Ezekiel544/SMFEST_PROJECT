@@ -654,11 +654,11 @@ footer .footer-ul li:hover{
     /* position: relative; */
 }
 .h1-sup{
-    font-size: 23px;
+    font-size: 17px;
     font-weight: bold;
     position: absolute;
-    top: 35px;
-    right: 53px;
+    top: 47px;
+    right: 57px;
 }
 .shakable-image {
     transition: transform 0.2s ease;
@@ -834,8 +834,9 @@ position: absolute;
         border-radius: 19px;
         padding: 10px 33px;
     }
-.h1-sup{
-    right: 35%;
+    .h1-sup{
+        top: 37px;
+        right: 41%;
     }   
     .sup-for-tens{
          right: 80px;
@@ -1035,9 +1036,9 @@ position: absolute;
     .sup-for-tens{
         right: 200px;
    }
-    .h1-sup{
+    /* .h1-sup{
         right:39%;
-    }  
+    }   */
     }
 /* Extra Small Devices */
 @media(max-width:575px){
@@ -1133,7 +1134,7 @@ position: absolute;
         font-size: 33px;
      }
      .global-img-div{
-        height: 90vh;
+        height: 85vh;
         left: 20px;
      }
      .global-img{
@@ -1149,7 +1150,7 @@ position: absolute;
         font-size: 13px;
     }
     .h1-sup{
-        right:30%;
+        right:32%;
     } 
     .sup-for-tens{
         position: absolute;

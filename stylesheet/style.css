@@ -650,9 +650,6 @@ footer .footer-ul li:hover{
 .main-relative-div{
     position: relative;
 }
-.main-h1{
-    /* position: relative; */
-}
 .h1-sup{
     font-size: 17px;
     font-weight: bold;
@@ -673,7 +670,6 @@ footer .footer-ul li:hover{
     75% { transform: translateX(-10px); }
     100% { transform: translateX(0); }
 }
-
 .my-fix{
    padding: 13px 16px; border: 1px solid white; border-radius: 5px; position: fixed; right: 6px; top: 543px;
    color: white;
@@ -684,7 +680,6 @@ footer .footer-ul li:hover{
 .sup-for-ten{
 position: absolute;
  top: 65px; 
- /* right: 130px; */
  right: 45%;
 }
 .sup-for-tens{

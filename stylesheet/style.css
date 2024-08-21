@@ -1,7 +1,7 @@
 *{
     box-sizing: border-box;
     margin: 0px;
-    padding: 0x;
+    padding: 0px;
 }
 :root{
     --white-color : white;
@@ -90,7 +90,6 @@ ul a li{
         border: none;
         padding: 18px 45px;
         padding-left: 25px;
-        /* font-size: 14px; */
     }
     
 }
@@ -195,7 +194,6 @@ ul a li{
 .navbar-toggler{
   border: none
 }
-
         /* main  */
     main{
       height: fit-content;

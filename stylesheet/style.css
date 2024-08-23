@@ -15,12 +15,9 @@
     height: 100vh;
     padding-top: 70px;
     animation-name: background-img;
-    animation-duration: 13s;
+    animation-duration: 15s;
     animation-iteration-count: infinite;
-    background-size: cover;
-  
-
-   
+    background-size: cover;   
 }
 header{
     overflow-x: hidden;
@@ -290,7 +287,6 @@ ul a li{
         font-family:clash display ;
         font-size: 55px;
         position: relative;
-        
      }
      .four-div p{
         font-family:clash display ;
@@ -345,7 +341,6 @@ ul a li{
          left: -70px;
          top: -95px;
      }
-     
      .fifty-div h1{
         font-family:clash display ;
         font-size: 55px;
@@ -441,53 +436,125 @@ ul a li{
     justify-content: center;
     background-color: #fb4c37;
 }
-/* read more  */
-
-    .second-hover a.text-good::after,.text-good::before{
-    content: "SPONSOR";
-    position: absolute;
-    align-items: center;
-    justify-content: center;
-    color: #ffff;
-    left: 0;
-    width: 100%;
-    line-height:50px;
-    text-transform: capitalize;
-    transition: all 400ms;
-    background: transparent;
-}
-.second-hover .text-good::before{
-content: "SPONSOR";
-left: 190px;
-}
-.second-hover a.text-good:hover::after{
-left:-170px;
-background: linear-gradient(to right #fb4c37, #df2771);
-}
-.second-hover .text-good:hover::before{
-left: 0;
-}
-.second-hover a{
-display: flex;
-overflow: hidden;
-width: 160px;
-height: 42px;
-position: relative;
-}
-.second-hover{
-    height: 50px;
-    width: 60%;
-    display: flex;
-    overflow: hidden;
-    border: none;
+      /* hover button  */
+.hover-button {
     position: relative;
-    padding: 30px;
-    align-items: center;
-    justify-content: center;
-    background-color: #fb4c37;
-                }
+    background-color: transparent;
+    font-size: 16px;
+    cursor: pointer;
+    overflow: hidden;
+    transition: color 0.3s;
+    z-index: 1; 
+}
+
+.hover-button::before {
+    content: 'READ MORE';
+    position: relative;
+    transition: opacity 0.3s;
+}
+
+.hover-button:hover::before {
+    content: 'READ MORE';
+    opacity: 1;
+}
+
+.hover-button::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, #fb4c37, #df2771);
+    transition: right 0.3s;
+    z-index: -1; 
+}
+
+.hover-button:hover::after {
+    right: 0;
+}
+    /* sponsor-button  */
+    .sponsor-button {
+        position: relative;
+        background-color: transparent;
+        font-size: 16px;
+        cursor: pointer;
+        overflow: hidden;
+        transition: color 0.4s;
+        z-index: 1; 
+    }
+    
+    .sponsor-button::before {
+        content: 'SPONSOR';
+        position: relative;
+        transition: opacity 0.3s;
+    }
+    
+    .sponsor-button:hover::before {
+        content: 'SPONSOR';
+        opacity: 1;
+    }
+    
+    .sponsor-button::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        right: 100%;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(to right, #fb4c37, #df2771);
+        transition: right 0.3s;
+        z-index: -1; 
+    }
+    .sponsor-button:hover::after {
+        right: 0;
+    }
+      /* volunteer button  */
+      .volunteer-button {
+        position: relative;
+        background-color: transparent;
+        font-size: 16px;
+        cursor: pointer;
+        overflow: hidden;
+        transition: color 0.3s;
+        z-index: 1; 
+    }
+    
+    .volunteer-button::before {
+        content: 'VOLUNTEER';
+        position: relative;
+        transition: opacity 0.3s;
+    }
+    
+    .volunteer-button:hover::before {
+        content: 'VOLUNTEER';
+        opacity: 1;
+    }
+    
+    .volunteer-button::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        right: 100%;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(to right, #fb4c37, #df2771);
+        transition: right 0.3s;
+        z-index: -1; 
+    }
+    .volunteer-button:hover::after {
+        right: 0;
+    }
 .my-carousel{
     margin-top: 140px;
+    width: 98%;
+    margin-left: auto;
+    margin-right: auto; 
+}
+.second-carousel{
+     width: 98%;
+    margin-left: auto;
+    margin-right: auto; 
 }
 .my-arrow{
     font-size: 79px;
@@ -715,14 +782,12 @@ position: absolute;
      .main-span{
         bottom: -310px;
     }
-    
     .smfest-write{
         order: 2;
     }
      .sm-about-border{
         left: 7px;
         height:140vh;
-
     }
     .my-sm-img{
         position: absolute;
@@ -752,7 +817,6 @@ position: absolute;
         font-size: 13px;
         font-weight: 600;
     }
-    
     .smFEst-p{
         font-size: 65px;
         line-height: 45px;
@@ -897,7 +961,6 @@ position: absolute;
             position: absolute;
             top: 20px;
             right: 4px;
-            /* width: 93%; */
          }
          .four-div{
             width: 460px;
@@ -913,10 +976,11 @@ position: absolute;
             font-size: 18px;
          }
          .smFEst-p{
-            font-size: 57px;
-            line-height: 43px;
+            font-size: 66px;
+            line-height: 41px;
             letter-spacing: 4px;
          }
+         
          .p-anti{
             font-size: 14px;
          }
@@ -956,7 +1020,6 @@ position: absolute;
      .global-img{
         position: absolute;
         top: -60px;
-        /* right: 69px; */
         left: -4px;
         height: 115%;
         width: 98%;
@@ -978,7 +1041,6 @@ position: absolute;
         position: relative;
         
      }
-     
      .fifty-div p{
         font-family:clash display ;
         font-weight: 500;
@@ -999,6 +1061,9 @@ position: absolute;
         margin-top: 60px;
         width: 96%;
         margin:0 auto;
+    }
+    .second-carousel{
+         width: 96%;
     }
     .p-exhibit{
         font-size: 40px;
@@ -1029,9 +1094,6 @@ position: absolute;
     .sup-for-tens{
         right: 200px;
    }
-    /* .h1-sup{
-        right:39%;
-    }   */
     }
 /* Extra Small Devices */
 @media(max-width:575px){
@@ -1061,7 +1123,6 @@ position: absolute;
        padding-bottom: 24px;
         
     }
-    
     .four-div{
         width: 350px;
         right: -12px;
@@ -1087,12 +1148,10 @@ position: absolute;
     }
     .global-img-div{
         height: 88vh;
-      
      }
      .global-img{
         position: absolute;
         top: -60px;
-        /* right: 69px; */
         left: -4px;
         height: 115%;
         width: 98%;
@@ -1101,17 +1160,14 @@ position: absolute;
         margin-top: 0px;
     }
    .p-exhibit{
-    font-size: 25px;
+        font-size: 25px;
    }
    .my-arrow{
-    font-size: 30px;
+        font-size: 30px;
     }
     .h1-sup{
         right:35%;
     }  
-   
-  
-
 }
  @media(max-width:466px){
     .smfest-p{
@@ -1135,10 +1191,8 @@ position: absolute;
         top: 15px;
         left: -5px;
         height: 96%;
-
         width: 98%;
     }
-    
     .buy-tickets{
         font-size: 13px;
     }
@@ -1150,7 +1204,6 @@ position: absolute;
         top: 65px;
          right: 93px;
     }
-     
  }
  @media(max-width:374px){
     .sup-for-tens{
